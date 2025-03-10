@@ -1,4 +1,4 @@
-#include<regx.h>
+#include<regx51.h>
 #include<intrins.h>
 
 void main()
