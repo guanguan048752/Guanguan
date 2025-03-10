@@ -1,0 +1,11 @@
+#include<regx.h>
+#include<intrins.h>
+
+void main()
+{
+    P1=0xFF;
+    while(1)
+    {
+        P1=_crol_(0xFF,1);
+    }
+}
