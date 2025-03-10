@@ -3,9 +3,9 @@
 
 void main()
 {
-    P1=0xFF;
+    P1=0xFE;
     while(1)
     {
-        P1=_crol_(0xFF,1);
+        P1=_crol_(P2,1);
     }
 }
